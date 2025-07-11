@@ -7,8 +7,7 @@ blueprint:
     and works seamlessly with SmartIR and other climate platforms.
     
   domain: automation
-  author: Marco Sinhoreli
-  forked: Daniel Marjos
+  author: Daniel Marjos / Marco Sinhoreli
   source_url: https://github.com/dmarjos/adaptive-climate-blueprint
   
   input:
