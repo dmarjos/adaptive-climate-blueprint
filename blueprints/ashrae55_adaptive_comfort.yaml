@@ -116,7 +116,7 @@ blueprint:
 
 variables:
   climate_entity_id: !input climate_entity
-  indoor_sensor_id: !input indoor_temp_sensor
+  indoor_sensor_id: !input climate_entity
   outdoor_sensor_id: !input outdoor_temp_sensor
   occupancy_sensor_id: !input occupancy_sensor
   min_comfort_temp_val: !input min_comfort_temp
