@@ -1,5 +1,5 @@
 blueprint:
-  name: ASHRAE 55 Adaptive Climate Control
+  name: ASHRAE 55 Adaptive Climate Control (no Temp Sensors)
   description: >
     Intelligent climate control implementing ASHRAE 55 adaptive comfort model with energy optimization.
     
