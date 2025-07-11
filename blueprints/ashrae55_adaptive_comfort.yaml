@@ -18,20 +18,12 @@ blueprint:
         entity:
           domain: climate
     
-    indoor_temp_sensor:
-      name: Indoor Temperature Sensor
-      description: Temperature sensor for the room being controlled
-      selector:
-        entity:
-          domain: sensor
-          device_class: temperature
-    
     outdoor_temp_sensor:
       name: Outdoor Temperature Sensor
       description: External temperature sensor for adaptive comfort calculations
       selector:
         entity:
-          domain: sensor
+          domain: weather
           device_class: temperature
     
     occupancy_sensor:
