@@ -18,6 +18,14 @@ blueprint:
         entity:
           domain: climate
     
+    outdoor_temp_sensor:
+      name: Outdoor Temperature Sensor
+      description: External temperature sensor for adaptive comfort calculations
+      selector:
+        entity:
+          domain: weather
+          device_class: home
+    
     occupancy_sensor:
       name: Occupancy Sensor (Optional)
       description: Motion or presence sensor for occupancy-aware control
@@ -109,7 +117,7 @@ blueprint:
 variables:
   climate_entity_id: !input climate_entity
   indoor_sensor_id: !input climate_entity
-  outdoor_sensor_id: !input weather.home
+  outdoor_sensor_id: !input outdoor_temp_sensor
   occupancy_sensor_id: !input occupancy_sensor
   min_comfort_temp_val: !input min_comfort_temp
   max_comfort_temp_val: !input max_comfort_temp
